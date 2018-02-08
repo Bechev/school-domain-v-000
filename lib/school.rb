@@ -9,7 +9,7 @@ class School
   end
 
   def add_student(student_name, student_grade)
-    @roster << :key "#{student_name}"
+    @roster << :key =>student_name
   end
 
 end
